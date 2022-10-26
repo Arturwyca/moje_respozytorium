@@ -1,0 +1,50 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header,
+footer{
+    display: flex
+}
+
+label{
+    display: block;
+}
+
+.header-block,
+.footer-block{
+    background-color: sienna;
+    color: white;
+    height: 150px;
+    width: 50%;
+    font-size: 1.5rem;
+}
+.header-block:first-of-type,
+.footer-block:first-of-type{
+    width: 40%;
+    font-size: 1rem;
+}
+.header-block:last-of-type,
+.footer-block:last-of-type{
+    width: 10%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+main{
+    background-color: tan;
+    padding: 100px;
+}
+
+a{
+    outline: dashed sienna 1px;
+    background-color: tan;
+    color: sienna;
+    padding: 40px;
+    line-height: 150px;
+}
+
+li{
+    list-style: circle;
+}
+
